@@ -1,0 +1,73 @@
+*{
+    font-family: 'Roboto', sans-serif;;
+}
+h1 ,h2, h3, h4, h5{
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.max-width {
+    margin: auto;
+    max-width: 1440px;
+  }
+.no-padding {
+    padding: 0 !important;
+}
+
+.display-flex{
+    display: flex;
+}
+  
+.red{
+    background-color: #e62e2d;
+    color: #e62e2d;
+}
+.top-nav-height{
+    height: 95px;
+}
+.white-tx{
+    color: white;
+}
+.date{
+    flex-direction: column;
+    padding: 0 0 20px 20px;
+    justify-content: flex-end;
+}
+.nav{
+    justify-content: space-between;
+}
+
+.nav img{
+    justify-content: center;
+    align-self: center;
+}
+
+.signin-button{
+    text-transform: uppercase;
+    align-self:flex-end;
+    margin-bottom: 13px;
+    text-align: center;
+    margin-right: -6px;
+}
+
+.subscribe-button{
+    text-transform: uppercase;
+    height:30px;
+    width: 150px;
+    background-color: white;
+    align-self:flex-end;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    text-align: center;
+    padding-top: 4px;
+}
+.heavyfont{
+    font-weight: 800;
+}
+.fa-chevron-right{
+    align-content: center;
+    margin-left: 10px;
+}
+
+.input-width{
+    width: 65px;
+}
