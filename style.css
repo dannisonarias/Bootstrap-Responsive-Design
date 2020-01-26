@@ -29,11 +29,16 @@ h1 ,h2, h3, h4, h5{
     align-self:flex-end;
 }
 
+.sub-signin-buttons{
+    font-weight: bold;
+}
+
 .signin-button{
     text-transform: uppercase;
     align-self:flex-end;
     text-align: center;
     margin-right: 5px;
+    margin-bottom: 3px;
 }
 
 .subscribe-button{
@@ -66,7 +71,8 @@ h1 ,h2, h3, h4, h5{
 }
 
 .nav-li{
-    
+    white-space: nowrap;
+    width: 100%;
     margin: 5px;
 }
 .nav-li a{
@@ -75,7 +81,51 @@ h1 ,h2, h3, h4, h5{
     color: black;
     font-weight: bold;
 }
+
+.search-input{
+    white-space: nowrap;
+}
+
 .input-control{
     max-width: 50px;
 }
 
+.fa-bars{
+    margin-left: 30px;
+    color: rgba(255, 255, 255, 0.657);
+}
+
+/* Media queries for header */
+@media (max-width: 992px)  {
+
+    .newsweek-logo{
+        width: 132px;
+        height: 22px;
+    }
+    .header-control{
+        height: 50px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .subscribe-button{
+        text-transform: uppercase;
+        height:30px;
+        width: 150px;
+        background-color: white;
+        margin: auto 0;
+    }
+
+}
+
+@media (max-width: 482px)  {
+    .sub-signin-buttons{
+        margin-left: 5px;
+        white-space: nowrap;
+        width: 180px;
+        font-size:12px;
+    }
+    .fa-bars{
+        margin-left: 5px;
+    }
+}
+/* Media queries for header End */

@@ -13,12 +13,16 @@
   </head>
   <body>
       <header class="red header-control d-flex max-width col-sm-12">
-            <span class="date white-tx d-flex">Thu, Jan 23, 2020</span>
+            <span class="date white-tx d-none d-lg-flex">Thu, Jan 23, 2020</span>
             <img src="img/logo.png" class="newsweek-logo" alt="newsweek logo">
-            <span class="d-flex sub-signin-buttons"><a class="white-tx signin-button" href="#">sign in</a>
-            <a class="subscribe-button red heavyfont" href="">Subscribe<i class="fa fa-chevron-right" aria-hidden="true"></i></i></a></span>
+            <span class="d-flex sub-signin-buttons">
+              <a class="white-tx signin-button" href="#">sign in</a>
+              <a class="subscribe-button red heavyfont" href="">Subscribe<i class="fa fa-chevron-right" aria-hidden="true"></i></i></a>
+              <i class="fa fa-bars d-lg-none white-tx fa-2x" aria-hidden="true"></i>
+          </span>
+            
       </header>
-          <nav class="nav-control d-none d-xl-flex d-lg-flex">
+          <nav class="nav-control d-none d-lg-flex">
             <ul class="page-nav-ul d-flex">
               <li class="first nav-li"><a href="/us" title="">U.S.</a></li>
               <li class="nav-li "><a href="/world" title="">World</a></li>
@@ -31,7 +35,7 @@
               <li class="nav-li "><a href="/the-debate" title="">The Debate</a></li>
               <li class="nav-li "><a href="/vantage" title="">Vantage</a></li>
               <li class="last nav-li "><a href="/weather" title="">Weather</a></li>
-              <li class="form-group display-flex">
+              <li class="form-group search-input">
                 <label for="search-bar"></label>
                 <input type="text" class="input-control" name="" id="" aria-describedby="helpId" placeholder="search">
                 <i class="fa fa-search" aria-hidden="true"></i>
