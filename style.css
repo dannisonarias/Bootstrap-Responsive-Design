@@ -3,6 +3,11 @@ h1 ,h2, h3, h4, h5{
     font-family: "Roboto Condensed", sans-serif;
 }
 
+.nav-li a:hover{
+    cursor: pointer;
+    color: red ;
+    text-decoration: none ;
+}
 .red{
     background-color: #F72210;
     color: #F72210;
@@ -58,22 +63,28 @@ h1 ,h2, h3, h4, h5{
     margin-left: 10px;
 }
 .nav-control{
-    height: 54px;
+    height: 60px;
     max-width: 1300px;
 
 }
 
 .page-nav-ul{
+    font-size: 18px;
+    padding-right: 95px;
+    padding-left: 3px;
+    margin: auto 0;
+    height: 30px;
     width: 100%;
     text-decoration: none;
     list-style: none;
+    
     
 }
 
 .nav-li{
     white-space: nowrap;
     width: 100%;
-    margin: 5px;
+    margin:0 5px;
 }
 .nav-li a{
     width: 100%;
