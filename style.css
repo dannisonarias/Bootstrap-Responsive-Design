@@ -115,31 +115,33 @@ header{
 /* top main section of articles start of styling */
 
 .background-2 ,.background-3{
-    height: 3500px;
+    /* height: 3500px; */
 }
 
 .background-1{
-    background-color: burlywood;
+    /* background-color: burlywood; */
 }
 
 .background-2{
-    background-color: rgb(173, 170, 166);
+    /* background-color: rgb(173, 170, 166); */
 }
 
 .background-3{
-    background-color: rgb(219, 216, 165);
+    /* background-color: rgb(219, 216, 165); */
 }
 
 .article-div-in-first-column-top-main{
 }
 
 .wrapper-top-main{
+    margin-top: 20px;
     max-width: 1300px;
 }
 
 .first-column-top-main img{
     width: 100%;
     height: auto;
+    max-width: 395px;
 }
 
 .top-main-container-titles{
@@ -166,21 +168,57 @@ header{
 }
 
 .second-column-top-main{
-    padding: 0 62px !important;
-    
+    padding: 0 10px !important;
+}
 
+.top-main-img-wrapper{
+    position: relative;
+}
+
+.content-second-column-wrapper{
+    margin: 0 auto;
+    max-width: 510px;
 }
 
 .second-column-top-main-img{
-
     display: block;
     height: auto;
     width: 100%;
-    max-width: 508px;
-    max-height: 311px;
+    max-width: 550px;
+    max-height: 350px;
     margin: 0 auto;
 }
 
+.country-logo{
+    display: flex;
+    max-width:58px ;
+    width: 100%;
+    min-height: 30px;
+    height: auto;
+    position: absolute;
+    bottom:0px;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.9);
+    z-index: 2;
+    justify-content: center;
+    margin: 0 !important;
+}
+
+.country-logo h1{
+    align-self: center;
+    font-weight: 700;
+    font-size:17px ;
+    color: rgb(247, 34, 16);
+    margin-top: 10px;
+    z-index: 3;
+}
+
+/* Third column */
+.person-opinion-wrapper img{
+    min-width: 63px;
+    height: 100%;
+    margin: 0 5px;
+}
 
 
 /* Media queries for header */
@@ -203,6 +241,8 @@ header{
         background-color: white;
         margin: auto 0;
     }
+
+    .nav-control{display: none;}
 
 }
 
