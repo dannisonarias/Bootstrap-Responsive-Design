@@ -219,6 +219,7 @@ header{
 
 .Culture-and-Travel-articles-wrapper{
     background-color: #f4f5f7;    
+    margin: 0 5px;
 }
 
 
@@ -262,7 +263,6 @@ header{
 
 .latest-news-article h5{
     margin-left: 10px;
-    margin-top: 5px;
 }
 
 .latest-news-article-a{
