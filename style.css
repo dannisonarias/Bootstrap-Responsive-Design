@@ -13,6 +13,13 @@ h1 ,h2, h3, h4, h5{
     color: #F72210;
 }
 
+header{
+    display: flex;
+    max-width: 1300px !important;
+    margin: 0 auto;
+}
+
+
 .header-control{
     height: 95px;
     justify-content: space-between;
@@ -36,6 +43,7 @@ h1 ,h2, h3, h4, h5{
 
 .sub-signin-buttons{
     font-weight: bold;
+    padding-top: 10px;
 }
 
 .signin-button{
@@ -47,15 +55,15 @@ h1 ,h2, h3, h4, h5{
 }
 
 .subscribe-button{
+    display: flex;
     text-transform: uppercase;
     height:30px;
     width: 150px;
     background-color: white;
     align-self:flex-end;
-    margin-right: 10px;
-    margin-top: 30px;
     text-align: center;
-    padding-top: 4px;
+    align-items: center;
+    justify-content: center;
 }
 
 .fa-chevron-right{
@@ -65,6 +73,7 @@ h1 ,h2, h3, h4, h5{
 .nav-control{
     height: 60px;
     max-width: 1300px;
+    margin: 0 auto;
 
 }
 
@@ -77,8 +86,6 @@ h1 ,h2, h3, h4, h5{
     width: 100%;
     text-decoration: none;
     list-style: none;
-    
-    
 }
 
 .nav-li{
@@ -105,6 +112,76 @@ h1 ,h2, h3, h4, h5{
     margin-left: 30px;
     color: rgba(255, 255, 255, 0.657);
 }
+/* top main section of articles start of styling */
+
+.background-2 ,.background-3{
+    height: 3500px;
+}
+
+.background-1{
+    background-color: burlywood;
+}
+
+.background-2{
+    background-color: rgb(173, 170, 166);
+}
+
+.background-3{
+    background-color: rgb(219, 216, 165);
+}
+
+.article-div-in-first-column-top-main{
+}
+
+.wrapper-top-main{
+    max-width: 1300px;
+}
+
+.first-column-top-main img{
+    width: 100%;
+    height: auto;
+}
+
+.top-main-container-titles{
+
+    font-size: 16px;
+    color: rgb(116, 116, 116);
+    font-weight: 700;
+}
+
+.top-main-container-article-titles a{
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+}
+
+.top-main-summary{
+    font-size: 15px;
+}
+
+.related-to-article-story{
+    color: black;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.second-column-top-main{
+    padding: 0 62px !important;
+    
+
+}
+
+.second-column-top-main-img{
+
+    display: block;
+    height: auto;
+    width: 100%;
+    max-width: 508px;
+    max-height: 311px;
+    margin: 0 auto;
+}
+
+
 
 /* Media queries for header */
 @media (max-width: 992px)  {
@@ -119,8 +196,9 @@ h1 ,h2, h3, h4, h5{
         align-items: center;
     }
     .subscribe-button{
+        font-weight: 700;
         text-transform: uppercase;
-        height:30px;
+        height:25px;
         width: 150px;
         background-color: white;
         margin: auto 0;
@@ -132,9 +210,13 @@ h1 ,h2, h3, h4, h5{
     .sub-signin-buttons{
         margin-left: 5px;
         white-space: nowrap;
-        width: 180px;
+        width: 140px;
         font-size:12px;
     }
+    .subscribe-button{
+        padding: 0 3px;
+    }
+    .fa-chevron-right{display: none !important;}
     .fa-bars{
         margin-left: 5px;
     }
