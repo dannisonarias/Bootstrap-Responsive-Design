@@ -317,7 +317,6 @@ header{
 
 .picture-sponsored{
     width: auto;
-    /* height: 100%; */
     margin-top: 35px;
     
 }
@@ -349,6 +348,24 @@ header{
     padding: 0 20px;
 }
 
+
+footer *{
+    text-decoration: none;
+    list-style: none;
+}
+
+.logo-footer-section{
+    justify-content: space-between;
+}
+
+.footer-logo{
+    max-width: 236px;
+}
+
+.footer-social{
+    /* align-content: center; */
+
+}
 
 
 
