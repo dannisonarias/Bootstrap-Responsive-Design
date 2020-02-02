@@ -219,7 +219,7 @@ header{
 
 .Culture-and-Travel-articles-wrapper{
     background-color: #f4f5f7;    
-    margin: 0 5px;
+    margin: 0 auto;
 }
 
 
@@ -271,12 +271,82 @@ header{
     font-size: 14px;
 }
 
+/* More stories */
+
+.more-stories-title{
+    font-weight: 900;    
+    font-size: 16px;
+    padding-top: 20px;
+    color: rgb(163, 162, 162);
+}
+
+.More-Stories-Articles{
+    display: block;
+    
+}
+
+.More-Stories-Articles img{
+    padding-left: 10px;
+    display: inline-block;
+    width: auto;
+    max-height: 100%;
+    min-width: 130px ;
+    padding-right: 10px;
+    float: left;
+}
+
+.More-Stories-Articles h5{
+    font-size: 17px;
+    font-weight: 700;
+    padding: 0 10px;
+}
+
+.More-Stories-Articles p{
+    font-size: 15px;
+    font-weight: 400;
+    padding: 0 10px;
+}
+
 
 /* Third column */
 .person-opinion-wrapper img{
     min-width: 63px;
     height: 100%;
     margin: 0 5px;
+}
+
+.picture-sponsored{
+    width: auto;
+    /* height: 100%; */
+    margin-top: 35px;
+    
+}
+
+.picture-sponsored img{
+    max-width: 317.5px;
+    
+    
+}
+
+.sponsor-elements-wrapper{
+    max-width: 350px;
+    border: 1px solid rgb(233, 233, 233);
+    margin: 0 auto;
+ 
+}
+
+.picture-sponsor-title-summary-wrapper h3{
+    font-weight: 900;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 24px;
+}
+
+.picture-sponsor-title-summary-wrapper p{
+    font-size: 15px;
+    line-height: 17px;
+    padding: 0 20px;
 }
 
 
