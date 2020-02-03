@@ -369,6 +369,7 @@ footer{
 .logo-footer-section{
     justify-content: space-between;
     margin-top: 30px;
+    flex-wrap: wrap !important;
 }
 
 .footer-logo{
@@ -378,6 +379,13 @@ footer{
 .footer-social-left-side{
     font-size: 12px;
     font-weight: 400;
+    flex-wrap: wrap !important;
+}
+
+.footer-social-left-side p {
+    font-size: 17px;
+    padding-top: 13px;
+    padding-right: 284px;
 }
 
 .ul-footer{
@@ -406,6 +414,7 @@ footer{
     color: gray;
     margin-left: 10px;
 }
+
 
 
 
