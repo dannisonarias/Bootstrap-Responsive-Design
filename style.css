@@ -483,6 +483,7 @@ header{
     color: rgb(138, 135, 135);
     padding:0px 20px 10px 20px ;
 }
+
 .newsweek-img-3{
     background-image: url("https://d.newsweek.com/en/full/1555351/newsweek-conversations-willem-dafoe.jpg?w=173&h=104&f=64f6b307bd86eb7c5a0a44276471bf7f");
 }
@@ -492,7 +493,8 @@ header{
 /* editor's pick */
 
 .editor-inner-div{
-    max-width: 290px;
+    max-width: 370px;
+    width: 100%;
 }
 .editor-inner-div img{
     max-width: 100%;
