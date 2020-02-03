@@ -331,17 +331,94 @@ header{
     padding: 0 20px;
 }
 /* Magazine bottom of page section */
-.magazine-firstcol img{
-    max-width: 290px;
+
+.bottom-of-page{
+
+}
+
+.bottom-of-page-title{
+    text-align: center;
+    margin-bottom: 5px;
+ 
+}
+
+.bottom-of-page-title img{
+    background-color: red;
+    max-width: 29px;
     height: auto;
-    /* transform: translateY(-10px); */
-    float: left;
+}
+
+.magazine-firstcol img{
+    /* max-width: 290px; */
+    width: 100%;
+    height: auto;
+}
+
+.magazine-titles{
+    max-width: 317px;
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
 }
 
 .magazine-images img{
-    max-width: 320px;
+    width: 100%;
     height: auto;
 }
+
+.red-background-cover-wrapper{
+    margin-top: 5px;
+}
+
+.cover-button{
+    text-transform: uppercase;
+    background-color: red;
+    width: 100%;
+    max-width: 100px;
+    text-align: center;
+    height: auto;
+    color: white;
+    font-weight: 700;
+    padding: 3px 0;
+}
+
+.world-button{
+    width: 64px;
+    height: auto;
+    color: red;
+    font-weight: 700;
+    padding: 3px 5px;
+}
+/* newsweek-conversations */
+
+.newsweek-conversion{
+    justify-content: center;
+    
+    font-size: 19px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    word-spacing: 0.0.49em;
+}
+
+.newsweek-conversion p{
+    margin-bottom: 5px !important;
+    margin-left: 5px;
+    align-self: flex-end;
+    
+
+}
+
+.icon-n{
+    background-color: red;
+    max-width: 40px;
+    width: 100%;
+    max-width: 35px;
+    height: auto;
+
+}
+
+/* footer */
 
 footer{
     display: flex;
