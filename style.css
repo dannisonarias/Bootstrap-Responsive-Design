@@ -508,6 +508,19 @@ header{
 
 }
 
+.container-slide-show-second img{
+    width: 100%;
+    max-width: 135px;
+
+}
+
+.slide-show-second-title{
+    font-size: 17px !important;
+    color: black;
+    font-weight: 700;
+    padding: 10px 10px;
+}
+
 
 
 .wrapper-slide-shows h4{
