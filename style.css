@@ -119,9 +119,6 @@ header{
     /* height: 3500px; */
 }
 
-.background-1{
-    /* background-color: burlywood; */
-}
 
 .background-2{
     /* background-color: rgb(173, 170, 166); */
@@ -348,6 +345,18 @@ header{
     font-size: 15px;
     line-height: 17px;
     padding: 0 20px;
+}
+/* Magazine bottom of page section */
+.magazine-firstcol img{
+    max-width: 290px;
+    height: auto;
+    /* transform: translateY(-10px); */
+    float: left;
+}
+
+.magazine-images img{
+    max-width: 320px;
+    height: auto;
 }
 
 footer{
