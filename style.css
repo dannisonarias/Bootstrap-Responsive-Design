@@ -115,22 +115,6 @@ header{
 }
 /* top main section of articles start of styling */
 
-.background-2 ,.background-3{
-    /* height: 3500px; */
-}
-
-
-.background-2{
-    /* background-color: rgb(173, 170, 166); */
-}
-
-.background-3{
-    /* background-color: rgb(219, 216, 165); */
-}
-
-.article-div-in-first-column-top-main{
-}
-
 .wrapper-top-main{
     margin-top: 20px;
     max-width: 1300px;
