@@ -413,8 +413,16 @@ header{
 }
 /* newsweek-conversations */
 
+.border-1px{
+    height: auto !important;
+}
+
+.newsweek-conversion-row{
+    height:auto;
+}
+
 .max-news-height{
-    max-height: 535px;
+    height: auto;
 }
 
 .newsweek-conversion{
@@ -453,7 +461,6 @@ header{
     align-self: flex-end;
 }
 
-
 .special-col-4{
     flex-direction: column;
 }
@@ -474,6 +481,7 @@ header{
 .the-vampire{
     background-color: black;
     color: white;
+    height: auto;
 }
 
 .newsweek-img{
@@ -493,8 +501,9 @@ header{
     background: url("https://d.newsweek.com/en/full/1555350/newsweek-conversations-leslie-grossman.jpg?w=173&h=104&f=b810dcbe860058739bb5ae4114710a95") no-repeat;
     background-position: 50% 50%;
     background-size: cover;
-    max-width: 159px;
+    /* max-width: 159px; */
     width: 100%;
+    height: auto;
     /* max-height: 173px; */
     
 }
@@ -503,10 +512,11 @@ header{
     background: url("https://d.newsweek.com/en/full/1555351/newsweek-conversations-willem-dafoe.jpg?w=173&h=104&f=64f6b307bd86eb7c5a0a44276471bf7f") no-repeat;
     background-position: 50% 50%;
     background-size: cover;
-    max-width: 159px;
+    /* max-width: 159px; */
     width: 100%;
     /* max-height: 150px; */
     height: auto;
+    
     
 }
 
@@ -515,7 +525,7 @@ header{
     background: url("https://d.newsweek.com/en/full/1555352/newsweek-conversations-matthew-modine.jpg?w=173&h=104&f=654768a75c92e3ead489a0ab7a1ae31f") no-repeat;
     background-position: 50% 50%;
     background-size: cover;
-    max-width: 159px;
+    /* max-width: 159px; */
     width: 100%;
     /* max-height: 173px; */
     height: auto;
@@ -565,6 +575,7 @@ header{
 .the-vampire-2{
     background-color: black;
     color: white;
+    height: auto;
     /* max-height: 173px; */
     
 
@@ -572,6 +583,7 @@ header{
 .the-vampire-3{
     background-color: black;
     color: white;
+    height: auto;
     /* max-height: 93px; */
     
 
@@ -579,6 +591,7 @@ header{
 .the-vampire-4{
     background-color: black;
     color: white;
+    height: auto;
     /* max-height: 173px; */
     
 
