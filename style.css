@@ -34,6 +34,12 @@ header{
 
 }
 
+.page-flow{
+    max-width: 1300px;
+    margin: 0 auto !important;   
+
+}
+
 
 .header-control{
     height: 95px;
@@ -407,6 +413,10 @@ header{
 }
 /* newsweek-conversations */
 
+.max-news-height{
+    max-height: 535px;
+}
+
 .newsweek-conversion{
     position: relative;
     justify-content: center;
@@ -417,6 +427,7 @@ header{
     word-spacing: 0.0.49em;
     margin-bottom: 10px;
     margin-top: 20px;
+    
 }
 
 .fa-cover{
@@ -473,6 +484,7 @@ header{
     width: 100%;
     max-width: 480px;
     min-height: 362px;
+    
 }
 .newsweek-img-2{
     position: relative;
@@ -482,28 +494,19 @@ header{
     background-size: cover;
     max-width: 159px;
     width: 100%;
-    max-height: 173px;
+    /* max-height: 173px; */
     
 }
 .newsweek-img-3{
     position: relative;
-    box-sizing: border-box;
     background: url("https://d.newsweek.com/en/full/1555351/newsweek-conversations-willem-dafoe.jpg?w=173&h=104&f=64f6b307bd86eb7c5a0a44276471bf7f") no-repeat;
     background-position: 50% 50%;
     background-size: cover;
     max-width: 159px;
     width: 100%;
-    max-height: 120px;
+    /* max-height: 150px; */
     height: auto;
     
-}
-
-.p-faded{
-    color:rgb(163, 162, 162);
-}
-
-.news-week-last-col-wrapper{
-    border: 1px solid rgb(207, 207, 207);
 }
 
 .newsweek-img-4{
@@ -513,18 +516,29 @@ header{
     background-size: cover;
     max-width: 159px;
     width: 100%;
-    max-height: 150px;
+    /* max-height: 173px; */
     height: auto;
     
     
 }
+
+.p-faded{
+    font-size: 15px;
+    color:rgb(163, 162, 162);
+}
+
+.news-week-last-col-wrapper{
+    border: 1px solid rgb(207, 207, 207);
+}
+
+
 
 .vampire-h4{
     color: white;
     padding:10px 20px 0px 20px ;
     font-weight: 700;
     font-size: 18px;
-    max-height: 173px;
+    /* max-height: 173px; */
 }
 
 .vampire-p{
@@ -534,13 +548,12 @@ header{
 
 
 .the-vampire h4{
-    padding: 40px 25px 0px 25px;
     font-size: 28px ;
     font-weight: 700;
 }
 
 .the-vampire p {
-    padding: 0px 25px 0px 25px;
+    /* padding: 0px 25px 0px 25px; */
 }
 
 .time-vampire{
@@ -552,21 +565,21 @@ header{
 .the-vampire-2{
     background-color: black;
     color: white;
-    max-height: 173px;
+    /* max-height: 173px; */
     
 
 }
 .the-vampire-3{
     background-color: black;
     color: white;
-    max-height: 93px;
+    /* max-height: 93px; */
     
 
 }
 .the-vampire-4{
     background-color: black;
     color: white;
-    max-height: 173px;
+    /* max-height: 173px; */
     
 
 }
@@ -584,9 +597,14 @@ header{
 }
 .img-wrapper-editor{
     position: relative;
-    /* width: 100%; */
-    /* height: auto; */
 }
+
+.img-wrapper-editor img{
+    width: 100%;
+    height: auto;
+    max-width: 397px;
+}
+
 .img-wrapper-editor span{
     position: absolute;
     bottom: 0px;
@@ -609,6 +627,10 @@ header{
     height: auto;
 
 }
+.wrapper-slide-shows img{
+    width:100%;
+    height:auto;
+}
 .slideshow-span-h4{
     font-size: 24px;
     font-weight: 700;
@@ -617,6 +639,10 @@ header{
 
 
 .container-slide-show-second img{
+    padding-top: 10px;
+    min-height: 100px;
+    max-height: 100px ;
+    height: auto;
     width: 100%;
     max-width: 135px;
 
@@ -640,10 +666,15 @@ header{
 }
 
 /* subscribe-block */
+
+
+
 .subscribe-col-1{
     position: relative;
     background-color: #f4f5f6;
-    height: 300px;
+    height: 360px;
+    width: 100%;
+    margin-right: 25px;
 }
 
 .box-10-subscribe{
@@ -654,17 +685,20 @@ header{
 
 .img-1-sub{
     position: absolute;
-    top: 20px;
+    top: 50px;
     left: 30px;
     max-width: 170px;
     height: auto;
 }
 .img-2-sub{
     position: absolute;
-    top: 35px;
-    left: 106px;
+    top: 85px;
+    left: 90px;
     max-width: 170px;
     height: auto;
+}
+.img-2-sub::after{
+    clear: both;
 }
 
 .subscribe-col-2{
@@ -674,6 +708,12 @@ header{
     width: 155%;
     max-width: 300px;
     height: auto;
+}
+
+.bgc-red{
+    background-color: red;
+    color: white;
+    font-weight: 700;
 }
 
 .subscribe-block-title-summary-wrapper{
