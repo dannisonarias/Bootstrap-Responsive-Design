@@ -710,11 +710,7 @@ header{
     height: auto;
 }
 
-.bgc-red{
-    background-color: red;
-    color: white;
-    font-weight: 700;
-}
+
 
 .subscribe-block-title-summary-wrapper{
     padding: 20px;
@@ -729,6 +725,13 @@ header{
 .subscribe-block-title-summary-wrapper p{
     font-size:15px ;
 }
+
+.bgc-red{
+    background-color: red !important;
+    color: white;
+    font-weight: 700;
+}
+
 
 /* footer */
 
@@ -829,6 +832,24 @@ footer{
     .fa-chevron-right{display: none !important;}
     .fa-bars{
         margin-left: 5px;
+    }
+}
+
+@media (max-width:540px){
+    .fuu {
+        height: auto;
+        max-height:86px ;
+        width: 100%;
+        max-width:143px;
+    }
+    .the-vampire-2 ,.the-vampire-3, .the-vampire-4{
+        height: 86px;
+    }
+    .the-vampire-2 h4,.the-vampire-3 h4,.the-vampire-4 h4{
+        font-size: 14px;
+    }
+    .the-vampire-2 p, .the-vampire-3 p, .the-vampire-4 p{
+        display: none;
     }
 }
 /* Media queries for header End */
