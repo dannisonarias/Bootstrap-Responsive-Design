@@ -691,6 +691,7 @@ header{
 }
 
 .box-10-subscribe{
+    
     position: absolute;
     top: 50px;
     left: 300px;
@@ -863,6 +864,20 @@ footer{
     }
     .the-vampire-2 p, .the-vampire-3 p, .the-vampire-4 p{
         display: none;
+    }
+}
+
+@media (max-width: 768px){
+    .box-10-subscribe{
+        position: relative;
+        display: block;
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+    .img-1-sub,.img-1-sub{
+        display: block;
+        width: 100%;
     }
 }
 /* Media queries for header End */
