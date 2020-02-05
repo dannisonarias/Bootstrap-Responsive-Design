@@ -1,3 +1,7 @@
+main * {
+  cursor: pointer;
+}
+
 a * {
   color: black;
 }
@@ -9,10 +13,6 @@ a:link {
 
 a *:hover {
   opacity: 0.6 !important;
-}
-
-main * {
-  cursor: pointer;
 }
 
 div *:hover {
@@ -34,6 +34,20 @@ h5 {
 
 .font-22 {
   font-size: 22px;
+  font-weight: 700;
+}
+
+.nav-li a {
+  width: 100%;
+  text-align: center;
+  color: black;
+  font-weight: bold;
+}
+
+.top-main-container-article-titles a {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 22px;
+  color: rgb(0, 0, 0);
   font-weight: 700;
 }
 
@@ -139,13 +153,6 @@ header {
   margin: 0 5px;
 }
 
-.nav-li a {
-  width: 100%;
-  text-align: center;
-  color: black;
-  font-weight: bold;
-}
-
 .search-input {
   white-space: nowrap;
 }
@@ -176,14 +183,6 @@ header {
 .top-main-container-titles {
   font-size: 15px;
   color: rgb(116, 116, 116);
-}
-
-.top-main-container-article-titles a {
-  font-family: 'Roboto Condensed', sans-serif;
-  font-weight: 900;
-  font-size: 22px;
-  color: rgb(0, 0, 0);
-  font-weight: 700;
 }
 
 .top-main-summary {
@@ -262,10 +261,6 @@ header {
   height: auto;
 }
 
-.culture-main-summary {
-  color: rgba(0, 0, 0, 0.514);
-}
-
 .active-a-tag-wrapper {
   margin-bottom: 20px;
 }
@@ -286,6 +281,7 @@ header {
 }
 
 .culture-main-summary {
+  color: rgba(0, 0, 0, 0.514);
   font-size: 15px;
   margin-bottom: 0 !important;
 }
@@ -379,10 +375,6 @@ header {
 }
 
 /* Magazine bottom of page section */
-
-.bottom-of-page{
-
-}
 
 .bottom-of-page-title {
   text-align: center;
@@ -492,7 +484,6 @@ header {
 
 .icon-n {
   background-color: red;
-  max-width: 40px;
   width: 100%;
   max-width: 35px;
   height: auto;
@@ -765,7 +756,6 @@ header {
 .subscribe-block-title-summary-wrapper {
   border: 1px solid rgba(219, 219, 219, 0.904);
   width: 100%;
-  padding-right: 10px;
   height: 100%;
   background-color: white;
   padding: 20px;
@@ -935,7 +925,6 @@ footer {
     text-align: center;
   }
 
-  .img-1-sub,
   .img-1-sub {
     display: block;
     width: 100%;
