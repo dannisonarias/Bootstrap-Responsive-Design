@@ -16,7 +16,7 @@ Built With
 
 Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/dannisonarias/Bootstrap-Responsive-Design/7352ec3c5c43d4a7ad1ff53a5cd1583f4be282be/index.html)
+[Live Demo Link](https://rawcdn.githack.com/dannisonarias/Bootstrap-Responsive-Design/3be1884e5fa1f9f2125aa19780df8a3a663fdf0a/index.html)
 
 
 Getting Started
