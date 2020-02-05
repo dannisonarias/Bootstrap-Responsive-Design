@@ -10,6 +10,8 @@ Additional description about the project and its features.
 
 Project anchor tags (links) are only simulations of what could be or would be a functional A tag (they are not meant to redirect only simulate.). 
 
+Project was designed for screens of 320px width and above. 
+
 Built With
 
 - Bootstrap 4,
