@@ -2,6 +2,10 @@ main * {
   cursor: pointer;
 }
 
+hr {
+  max-width: 1300px;
+}
+
 a * {
   color: black;
 }
