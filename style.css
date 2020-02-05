@@ -228,7 +228,8 @@ header {
   margin: 0 auto;
   max-width: 510px;
   overflow: scroll;
-  scrollbar-width: none;
+  overflow-x: hidden;
+  scrollbar-width: thin;
 }
 
 .content-second-column-wrapper::-webkit-scrollbar {
@@ -396,6 +397,8 @@ header {
 /* Magazine bottom of page section */
 
 .bottom-of-page-title {
+  padding-top: 30px;
+  padding-bottom: 5px;
   text-align: center;
   margin-bottom: 5px;
 }
