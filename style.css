@@ -209,8 +209,16 @@ header {
 
 .top-main-img-wrapper {
   position: relative;
+  width: 100%;
+  height:auto;
 }
 
+.top-main-img-wrapper img {
+  width: 100% !important;
+  height:auto;
+  max-width: 1100px;
+  }
+  
 .content-second-column-wrapper {
   max-height: 2880px;
   margin: 0 auto;
