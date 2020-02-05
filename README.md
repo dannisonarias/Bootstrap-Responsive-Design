@@ -16,29 +16,12 @@ Built With
 
 Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://rawcdn.githack.com/dannisonarias/Bootstrap-Responsive-Design/7352ec3c5c43d4a7ad1ff53a5cd1583f4be282be/index.html)
 
 
 Getting Started
 
-This project is a demonstration on my ability to use Bootstrap 4 , Use to live Demo link to take a look.
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+This project is a demonstration on my ability to use Bootstrap 4 to create a fully responsive website , Use to live Demo link above to take a look.
 
 Authors
 

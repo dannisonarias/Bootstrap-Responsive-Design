@@ -803,12 +803,14 @@ footer {
   max-width: 1300px !important;
   margin: 0 auto;
   padding: 0 50px;
+  width: 100%;
 }
 
 .logo-footer-section {
   justify-content: space-between;
   margin-top: 30px;
   flex-wrap: wrap !important;
+  width: 100%;
 }
 
 .footer-logo {
